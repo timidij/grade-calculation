@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:floralwhite;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+
+input{
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    align-self: center;
+    padding: 5px;
+}
