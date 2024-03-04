@@ -1,13 +1,14 @@
-console.log("hello world")
-document.getElementById("sub")
+
+document.getElementById("namform")
 
 
 
 const hi = document.getElementById("dis")
 
-
+document.addEventListener("submit", freeky)
 function freeky (e){
-  
+    e.preventDefault()
+ console.log(e)
    let fName= document.getElementById("firstName")
     let lName = document.getElementById("lastName")
     const matNo = document.getElementById("matNo")
@@ -37,9 +38,21 @@ function freeky (e){
         congratulation  = "UNFORTUNATELY you have failed"
     }
 
-    console.log(fName.value)
+    test1.addEventListener("keydown", very())
+    function very(){
+        if( test1.value >30)
+        alert("hello try again");
+    }
+
+    // console.log(fName.value)
     hi.innerHTML=`HELLO! ${fName.value} ${lName.value} with ${matNo.value}
     your total score is ${totalscore}, your grade is ${grade} ${congratulation}
     `
     return false
 }
+
+
+
+
+
+
