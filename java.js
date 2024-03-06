@@ -30,7 +30,10 @@ function freeky (e){
     }else if(totalscore>= 45){
         grade = "D"
 
-    }else{
+    } else if(totalscore>=40){
+        grade = "E"
+    }
+    else{
         grade = "F"
     }
     let congratulation = ""
