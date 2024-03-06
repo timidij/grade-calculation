@@ -54,6 +54,4 @@ function freeky (e){
 // const btn = document.querySelector("#sub")
 // btn.addEventListener("click",freeky)
 const btn2 = document.querySelector("#nameform")
-btn2.addEventListener("submit", function (){
-    
-})
+btn2.addEventListener("submit", freeky)
