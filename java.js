@@ -21,13 +21,13 @@ function freeky (e){
     let grade = ''
     let totalscore = parseInt(test1) + parseInt(test2.value) + parseInt(exam.value)
 
-    if(totalscore >70){
+    if(totalscore >=70){
         grade = "A"
     }else if (totalscore > 60){
         grade= "B"
-    }else if(totalscore>50) {
+    }else if(totalscore>=50) {
         grade = "C"
-    }else if(totalscore> 45){
+    }else if(totalscore>= 45){
         grade = "D"
 
     }else{
