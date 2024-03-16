@@ -30,11 +30,15 @@ function freeky(e){
     }
     //logic for message to be displayed
     mess = ""
- 
+        if (totalscore> 39){
+        mess=" CONGRATULATIONS, Your have passed"
+    }else{
+        mess= "UNFORTUNATELY  you have failed"
+    }
     const str = `HELLO! ${fname} ${lname} with ${matno} your total score is ${totalscore}, your grade is ${grade} 
     ${mess}
     `
-    console.log(fname.value)
+  
     
     header.innerHTML = str
    
